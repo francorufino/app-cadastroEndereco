@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityEndIZI"
+    android:orientation="vertical"
+    android:background="#b4efc2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Digite o que você viu nesse lugar:"
+        android:padding="10dp"
+        android:textColor="#0a2803"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_edit_oQueViu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Digite o nome da loja:"
+        android:textColor="#0a2803"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_edit_nomeLoja" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Digite o endereco da loja:"
+        android:textColor="#0a2803"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_edit_enderecoLoja"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_btn_cadastrar"
+        android:text="Cadastrar"
+        android:onClick="cadastrar"
+        android:background="#112b0f"
+        android:textColor="#b4efc2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_btn_mostrarTudo"
+        android:text="Exibir todos"
+        android:onClick="exibirTodos"
+        android:textColor="#b4efc2"
+        android:background="#0a1b00"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_text_final"
+        android:textColor="#0a2803"/>
+
+
+</LinearLayout>
